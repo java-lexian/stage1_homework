@@ -290,11 +290,66 @@ li.spacer {
 
 /* 底部宣传栏 */
 #service {
-	border: 1px solid red;
 	margin: 0 auto;
 	padding-left: 53px;
 	width: 1159px;
-	/* height: 470px; */
 	margin-left: 220px;
 	margin-top: 28px;
+}
+
+/* 底部区域 */
+#footer {
+	background-color: #F4F4F4;
+	height: 330px;
+	border-bottom: 1px solid #dedede;
+
+}
+
+/* 底部链接 */
+#mod-help {
+	border-bottom: 1px solid #dedede;
+	width: 990px;
+	height: 160px;
+	margin: 0 auto;
+	padding-top: 21px;
+	padding-left: 139px;
+}
+
+#mod-help>ul {
+	width: 158px;
+	float: left;
+}
+
+#mod-help ul li {
+	padding-top: 3px;
+	line-height: 22px;
+	font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+	color: #666;
+}
+
+#mod-help ul li:hover {
+	cursor: pointer;
+	color: red;
+}
+
+div h5 {
+	font: 15px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+	font-weight: bold;
+	display: inline-block;
+}
+
+/* 版权信息 */
+#mod-copyright .layui-breadcrumb a{
+	font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+	color: #7b7b7d;
+}
+	
+.cpoy-div {
+	text-align:center;
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+.info-div {
+	text-align:center;
+	margin-bottom: 5px;
 }
