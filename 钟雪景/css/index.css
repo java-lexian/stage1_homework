@@ -11,7 +11,8 @@
 #ad_close:hover {
 	cursor: pointer;
 }
-img:hover{
+
+img:hover {
 	cursor: pointer;
 }
 
@@ -75,8 +76,9 @@ li.spacer {
 }
 
 .search-m {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	position: relative;
+	left: 460px;
 	top: 26px;
 	width: 490px;
 	height: 36px;
@@ -167,7 +169,8 @@ li.spacer {
 /* 轮播图区域 */
 #middle {
 	background-color: #F4F4F4;
-	height: 1000px;
+	height: 2630px;
+	border-bottom: 1px solid #dedede;
 }
 
 #middle>#left-ad {
@@ -176,6 +179,7 @@ li.spacer {
 	margin-left: 60px;
 }
 
+/* 中间菜单栏 */
 #menu-div {
 	float: left;
 	width: 160px;
@@ -186,6 +190,27 @@ li.spacer {
 	background-color: white;
 }
 
+#menu-div>ul {
+	padding: 10px 0;
+	color: #636363;
+}
+
+#menu-div>ul>li {
+	height: 25px;
+	line-height: 25px;
+	padding-left: 18px;
+	font-size: 14px;
+}
+
+#menu-div>ul>li:hover {
+	background-color: #d9d9d9;
+	cursor: pointer;
+
+
+}
+
+
+/* 中间轮播图 */
 .rotation1 {
 	float: left;
 	margin-top: 10px;
@@ -208,13 +233,11 @@ li.spacer {
 
 /* 频道广场 */
 #channel {
-	border: 1px solid red;
 	width: 1159px;
 	height: 470px;
 	display: inline-table;
 	margin-left: 220px;
 	margin-top: 28px;
-
 }
 
 .h3-title:before {
@@ -227,7 +250,6 @@ li.spacer {
 
 .h3-title {
 	position: relative;
-	/* width: 150px; */
 	height: 45px;
 	font-size: 28px;
 	font-weight: 700;
@@ -247,4 +269,32 @@ li.spacer {
 	background-position: -25px 0px;
 }
 
+/* 为你推荐 */
+#feeds {
+	width: 1159px;
+	height: 1370px;
+	margin-left: 220px;
+	margin-top: 28px;
+}
 
+#daohang {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 400px;
+}
+
+.floorhd div img {
+	margin-bottom: 16px;
+}
+
+/* 底部宣传栏 */
+#service {
+	border: 1px solid red;
+	margin: 0 auto;
+	padding-left: 53px;
+	width: 1159px;
+	/* height: 470px; */
+	margin-left: 220px;
+	margin-top: 28px;
+}
