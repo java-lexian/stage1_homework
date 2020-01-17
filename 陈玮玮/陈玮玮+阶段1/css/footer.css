@@ -1,0 +1,77 @@
+/* 页面底部 */
+.footer {
+	margin-top: 35px;
+	background-color: #EAEAEA;
+}
+.charcter {
+	padding: 30px 0; 
+	border-bottom: 1px solid #DEDEDE;
+	overflow: hidden;
+}
+.charcter ul li {
+	width: 240x;
+	position: relative;
+	line-height: 43px;
+	float: left;
+}
+.charcter  li p {
+	font-weight: 700;
+	margin-left: 71px;
+
+}
+
+/* 帮助模块 */
+.help {
+    margin-top:10px;
+    overflow: hidden;
+    zoom:1;
+    height:230px;
+}
+.helpDiv{
+    float:left;
+    width:15%;
+    height:100%;
+    margin-left: 10px;
+}
+.title{
+    font-size: 16px;
+    font-weight: 900;
+    color: #666;
+}
+.context{
+    font-size: 12px;
+    color: #666;
+}
+/* 底部版权 */
+.copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+
+.copyright div {
+	margin-top:20px;
+}
+.copyright div p {
+	line-height: 22px;
+}
+.foot-icon a {
+	display: inline-block;
+	width: 103px;
+	height: 33px;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+	margin: 20px 4px 0;
+	/* 行内块可以用 text-align: center 来实现居中 */
+}
+.foot-icon a:nth-child(2) {
+	background-position: -103px  -150px;
+}
+.foot-icon a:nth-child(3) {
+	background-position: 0  -183px;
+}.foot-icon a:nth-child(4) {
+	background-position: -103px  -183px;
+}.foot-icon a:nth-child(5) {
+	background-position: 0  -216px;
+}.foot-icon a:nth-child(6) {
+	background-position: -103px  -216px;
